@@ -20,10 +20,12 @@
 </head>
 
 <body>
+    <!-- 헤더 -->
     <div class="Header">너만의 일상을 공유해봐</div>
+
+    <!-- 카테고리 표시-->
     <div class="Side">
         <p class="Home" type="button">홈</p>
-
         <div class="dropdown" style="margin: 20px; display: inline-block;">
             <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 게시글 목록
@@ -45,9 +47,19 @@
                 <li><a class="dropdown-item" href="#">Q&A</a></li>
             </ul>
         </div>
-
     </div>
+
+    <!-- 메인 -->
     <div class="Main">
+
+        <p style="margin-top: .55rem;">게시물 목록</p>
+
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary" id="weak">주간 베스트 게시물</button>
+            <button type="button" class="btn btn-outline-primary" id="month">월간 베스트 게시물</button>
+        </div>
+
+        <!-- 게시글 목록 -->
         <div class="boardList">
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
@@ -64,14 +76,6 @@
                     <p class="card-text">대충 유저 이름</p>
                 </div>
             </div>
-            
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">글 제목</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
-                    <p class="card-text">대충 유저 이름</p>
-                </div>
-            </div>
 
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
@@ -88,11 +92,73 @@
                     <p class="card-text">대충 유저 이름</p>
                 </div>
             </div>
-            
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">글 제목</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
+                    <p class="card-text">대충 유저 이름</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="Footer bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <!-- 회사 정보 -->
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">속 마음 일기</h5>
+                    <p>속 마음 일기에서 당신의 이야기를 나누어 보세요.</p>
+                    <p>우리의 커뮤니티와 함께 일상을 공유하세요.</p>
+                </div>
+                <!-- 네비게이션 링크 -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-dark">홈</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">게시글 목록</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">카테고리</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Q&A</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 소셜 미디어 링크 -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Follow Us</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-dark">페이스북</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">트위터</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">인스타그램</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">링크드인</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-    </div>
-    <div class="Footer">밑</div>
+        <div class="text-center p-3 bg-dark text-white">
+            © 2024 속 마음 일기. All rights reserved.
+            <a class="text-white" href="#!">개인정보 처리방침</a> |
+            <a class="text-white" href="#!">이용 약관</a>
+        </div>
+    </footer>
 
 
 
