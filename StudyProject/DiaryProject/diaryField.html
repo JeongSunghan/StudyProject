@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- css외부로 접속하는 법 -->
+  <link rel="stylesheet" href="/CSS/diaryField.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>속 마음 일기</title>
+
+  <!-- 목표 -->
+  <!-- 
+        첫번쨰. HTML과 CSS로 틀 만들기
+        두번쨰. JavaScript로 동적기능 추가
+        세번쨰. Java와 MySQL 혹은 MongoDB로 백엔드 추가
+
+        ! 다음 단계로 넘어가기 전 그 전의 목표 완성하고 넘어가기
+     -->
+</head>
+
+<body>
+
+  <div class="header" style="border: 1px solid black;">제목
+    <input type="text" name="title">
+  </div>
+
+  <div class="select_line">
+    <!-- 날씨와 기분은 '드롭다운' 으로 설정하기 -->
+    <div class="weahter" >오늘 날씨 어땟어?
+      <select name="weather_Select">
+          <option>너무 맑아!</option>
+          <option>음..평범해?</option>
+          <option>비가 너무 많이옴..ㅠ</option>
+          <option>꾸릿꾸릿해!</option>
+          <option>으악 더워!!</option>
+      </select>
+    </div>
+
+    <div class="feeling" >오늘의 기분은?!
+      <select name="feeling_Select">
+        <option>기분 좋아!</option>
+        <option>좋아!</option>
+        <option>음..SoSo..</option>
+        <option>안좋아..</option>
+        <option>악 다 떄려치워!!</option>
+      </select>
+
+
+    </div>
+  </div>
+  <div class="input_field" style="border: 1px solid black;">오늘의 하루를 작성해줘!
+      <input type="text">
+  </div>
+
+</body>
+
+</html>

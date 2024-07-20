@@ -1,0 +1,15 @@
+.select_line {
+    margin: auto;
+    padding: 3px;
+}
+
+.weahter {
+ display: inline-block;
+ margin: auto;
+}
+
+.feeling {
+    display: inline-block;
+    border: 2px solid black;
+
+}
