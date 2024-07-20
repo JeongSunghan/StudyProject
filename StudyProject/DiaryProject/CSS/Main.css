@@ -5,13 +5,26 @@
 
 .Side {
     border: 1px solid red;
-    margin: 20px;
     display: inline-block;
+    margin: 20px;
 }
 
 .Main {
     border: 1px solid blue;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.boardList {
     display: inline-flex;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    margin: .5rem;
 }
 
 .Footer {
