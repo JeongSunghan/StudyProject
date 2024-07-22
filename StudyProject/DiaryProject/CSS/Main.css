@@ -1,15 +1,15 @@
-.Header {
+header {
     border: 1px solid black;
     margin: 20px;
 }
 
-.Side {
+aside {
     border: 1px solid red;
     display: inline-block;
     margin: 20px;
 }
 
-.Main {    
+.main {    
     border: 1px solid blue;
     margin: 20px;
     align-items: center;
