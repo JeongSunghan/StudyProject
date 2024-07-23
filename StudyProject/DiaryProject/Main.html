@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./CSS/Main.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>속 마음 일기</title>
+  <title>Hide on Heart</title>
 
   <!-- 목표 -->
   <!-- 
@@ -22,106 +22,106 @@
 
 <body>
   <!-- 헤더 -->
-  <header>너만의 일상을 공유해봐</header>
-
-  <!-- 카테고리 표시-->
-
-  <aside>
-    <p class="Home" type="button">홈</p>
-    <div class="dropdown" style="margin: 20px; display: inline-block;">
-      <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        막혔다..
-      </button>
-      <ul class="dropdown-menu">
-        
-      </ul>
-
-      <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        게시글 목록
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">전체 게시글</a></li>
-        <li><a class="dropdown-item" href="#">친구 공개 게시글</a></li>
-        <li><a class="dropdown-item" href="#">나만의 게시글</a></li>
-      </ul>
-
-      <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        카테고리
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">일기장</a></li>
-        <li><a class="dropdown-item" href="#">버킷리스트</a></li>
-        <li><a class="dropdown-item" href="#">다짐</a></li>
-        <!-- 매일매일 질의응답 같은 미니카테고리 추가? -->
-        <li><a class="dropdown-item" href="#">Q&A</a></li>
-      </ul>
-    </div>
-  </aside>
+  <header>헤더임 헤더임 헤더임 헤더임 헤더임</header>
 
   <!-- 메인 -->
-  <div class="main">
-    <p style="margin-top: .55rem; display: block; " >게시물 목록
-    <div class="btn-group" role="group" aria-label="Basic outlined example">
-      <button type="button" class="btn btn-outline-primary" id="weak">주간 베스트 게시물</button>
-      <button type="button" class="btn btn-outline-primary" id="month">월간 베스트 게시물</button>
-    </div>
-    </p>
+  <main>
+    <!-- 카테고리 표시-->
+    <aside>
+      <input type="search" class="search" placeholder="검색">
+      <h2>Home</h2>
 
-    <!-- 게시글 목록 -->
-    <div class="boardList" style="width: 80%;">
-      <div class="card" style="width: 18rem;">
+      <hr />
+      <ul>
+        <h2>게시글 목록</h2>
+        <li style="list-style: none;">전체 게시글</li>
+        <li style="list-style: none;">친구 공개 게시글</li>
+        <li style="list-style: none;">나만의 게시글</li>
+      </ul>
 
+      <hr />
+      <ul>
+        <h2>카테고리</h2>
+        <li style="list-style: none;">일기장</li>
+        <li style="list-style: none;">버킷리스트</li>
+        <li style="list-style: none;">나의 다짐</li>
+        <li style="list-style: none;">일일 Q&A</li>
+        <!-- 썸원처럼 매일 질문 물어보는 기능?? -->
+      </ul>
+
+      <hr />
+      <ul>
+        <h2>마이페이지</h2>
+        <li style="list-style: none;">프로필</li>
+        <li style="list-style: none;">프로필 변경</li>        
+        <li style="list-style: none;">계정 정보</li>        
+        <li style="list-style: none;">계정 정보 변경</li>        
+      </ul>
+
+    </aside>
+
+    <div class="body">
+      <p style="margin-top: .55rem; display: block;">게시물 목록</p>
+      <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <button type="button" class="btn btn-outline-primary" id="weak">주간 베스트 게시물</button>
+        <button type="button" class="btn btn-outline-primary" id="month">월간 베스트 게시물</button>
+      </div>
+
+      <!-- 게시글 목록 -->
+      <div class="boardList col-lg-12 col-md-6 col-xs-1" >
         <!-- 게시물 목록은 백엔드에서 반복하여 최대 5개까지 나오게 표현 할 예정 -->
-        <div class="card-body">
-          <h5 class="card-title">글 제목</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
-          <p class="card-text">대충 유저 이름</p>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">글 제목</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
+            <p class="card-text">대충 유저 이름</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">글 제목</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
+            <p class="card-text">대충 유저 이름</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">글 제목</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
+            <p class="card-text">대충 유저 이름</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">글 제목</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
+            <p class="card-text">대충 유저 이름</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">글 제목</h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
+              <p class="card-text">대충 유저 이름</p>
+          </div>
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">글 제목</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
-          <p class="card-text">대충 유저 이름</p>
-        </div>
-      </div>      
-
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">글 제목</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
-          <p class="card-text">대충 유저 이름</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">글 제목</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
-          <p class="card-text">대충 유저 이름</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">글 제목</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
-          <p class="card-text">대충 유저 이름</p>
-        </div>
-      </div>
-
     </div>
-  </div>
+  </main>
 
-  <!-- Footer -->
+  <!-- Footer -->   
   <footer class="Footer bg-light text-center text-lg-start">
-    <div class="container p-4">
+    <div class="container p-3">
       <!-- 회사 정보 -->
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase">속 마음 일기</h5>
-          <p>속 마음 일기에서 당신의 이야기를 나누어 보세요.</p>
+          <h5 class="text-uppercase">너의 비밀을 털어버렷!</h5>
+          <p>Hide on Heart 에서 당신의 이야기를 나누어 보세요.</p>
           <p>우리의 커뮤니티와 함께 일상을 공유하세요.</p>
         </div>
         <!-- 네비게이션 링크 -->
@@ -138,7 +138,7 @@
               <a href="#!" class="text-dark">카테고리</a>
             </li>
             <li>
-              <a href="#!" class="text-dark">Q&A</a>
+              <a href="#!" class="text-dark">공지사항</a>
             </li>
           </ul>
         </div>
@@ -162,19 +162,17 @@
         </div>
       </div>
     </div>
-
+    
     <div class="text-center p-3 bg-dark text-white">
-      © 2024 속 마음 일기. All rights reserved.
+      © 2024 Hide on Heart. All rights reserved.
       <a class="text-white" href="#!">개인정보 처리방침</a> |
       <a class="text-white" href="#!">이용 약관</a>
     </div>
   </footer>
 
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
