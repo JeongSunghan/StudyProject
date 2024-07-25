@@ -31,17 +31,22 @@
       <input type="search" class="search" placeholder="검색">
       <h2>Home</h2>
 
+      <div class="userProfile">      
+          <img class="profileImg" src="img/profile1.jpg">
+          <p class="username">코뚱잉</p>        
+      </div>
+
       <hr />
+      <h2 style="text-align: start;">게시글 목록</h2>
       <ul>
-        <h2>게시글 목록</h2>
         <li style="list-style: none;">전체 게시글</li>
         <li style="list-style: none;">친구 공개 게시글</li>
         <li style="list-style: none;">나만의 게시글</li>
       </ul>
 
       <hr />
+      <h2>카테고리</h2>
       <ul>
-        <h2>카테고리</h2>
         <li style="list-style: none;">일기장</li>
         <li style="list-style: none;">버킷리스트</li>
         <li style="list-style: none;">나의 다짐</li>
@@ -50,12 +55,12 @@
       </ul>
 
       <hr />
+      <h2>마이페이지</h2>
       <ul>
-        <h2>마이페이지</h2>
         <li style="list-style: none;">프로필</li>
-        <li style="list-style: none;">프로필 변경</li>        
-        <li style="list-style: none;">계정 정보</li>        
-        <li style="list-style: none;">계정 정보 변경</li>        
+        <li style="list-style: none;">프로필 변경</li>
+        <li style="list-style: none;">계정 정보</li>
+        <li style="list-style: none;">계정 정보 변경</li>
       </ul>
 
     </aside>
@@ -68,12 +73,13 @@
       </div>
 
       <!-- 게시글 목록 -->
-      <div class="boardList col-lg-12 col-md-6 col-xs-1" >
+      <div class="boardList col-lg-12 col-md-6 col-xs-1">
         <!-- 게시물 목록은 백엔드에서 반복하여 최대 5개까지 나오게 표현 할 예정 -->
 
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">글 제목</h5>
+            <img class="card_profileImg" src="img/profile1.jpg">
             <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
             <p class="card-text">대충 유저 이름</p>
           </div>
@@ -82,6 +88,7 @@
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">글 제목</h5>
+            <img class="card_profileImg" src="img/profile1.jpg">
             <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
             <p class="card-text">대충 유저 이름</p>
           </div>
@@ -90,6 +97,7 @@
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">글 제목</h5>
+            <img class="card_profileImg" src="img/profile1.jpg">
             <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
             <p class="card-text">대충 유저 이름</p>
           </div>
@@ -98,6 +106,7 @@
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">글 제목</h5>
+            <img class="card_profileImg" src="img/profile1.jpg">
             <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
             <p class="card-text">대충 유저 이름</p>
           </div>
@@ -106,15 +115,19 @@
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">글 제목</h6>
+              <img class="card_profileImg" src="img/profile1.jpg">
               <h6 class="card-subtitle mb-2 text-body-secondary">유저아이디</h6>
               <p class="card-text">대충 유저 이름</p>
           </div>
         </div>
+
+       
+
       </div>
     </div>
   </main>
 
-  <!-- Footer -->   
+  <!-- Footer -->
   <footer class="Footer bg-light text-center text-lg-start">
     <div class="container p-3">
       <!-- 회사 정보 -->
@@ -162,7 +175,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="text-center p-3 bg-dark text-white">
       © 2024 Hide on Heart. All rights reserved.
       <a class="text-white" href="#!">개인정보 처리방침</a> |
